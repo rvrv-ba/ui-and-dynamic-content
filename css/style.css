@@ -1,0 +1,141 @@
+/*  font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    background-image: url(../img/bkgd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logoimg {
+    margin-top: 3rem;
+    max-width: 100%;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+    color: #BF0413;
+    letter-spacing: -5px;
+    line-height: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+.simplest {
+    font-size: 1.2rem;
+    color: #BF0413;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+}
+
+script {
+    padding: 10rem;
+}
+
+.text {
+    padding-bottom: 2rem;
+}
+
+.like {
+    color: #BF0413;
+    font-size: .8rem;
+}
+
+#add {
+    background-color: #8C041D;
+    font-size: 1.2rem;
+    color: #ffffff;
+    outline-color: #ffffff;
+    outline-width: thin
+    text-align: center;
+    padding: .3em;
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: .5rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #73030D;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: square;
+    text-align: left;
+    margin-bottom: 2rem;
+    color: #73030D;
+    margin-left: 2rem;
+}
+
+.content {
+    padding-right: 55rem;
+}
+
+
+#content:focus {
+    outline-color: white ;
+}
+
+footer {
+    background-color: #73030D;
+    padding-bottom: 2rem;
+}
+
+.hr-line {
+    border-top: 2px solid #c92127;
+/*    padding-bottom: 1rem;*/
+}
+
+.footer-text{
+    font-size: .8rem;
+    color: #ffffff;
+    padding-top: 1rem;
+}
+
+.copy {
+    font-size: .5rem;
+    color: #73030D;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.yb {
+    max-width: 80px;
+    padding-top: 1.3rem;
+}
+
+.tw {
+    max-width: 30px;
+/*    margin-bottom: 1rem;*/
+    float: left;
+    margin-left: 5rem;
+    padding-top: 1rem;
+}
+
+.fb {
+    max-width: 30px;
+    padding-top: 1rem;
+    float: right;
+    margin-right: 5rem;
+}
+
